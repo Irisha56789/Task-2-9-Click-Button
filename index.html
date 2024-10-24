@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Счетчик нажатий</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем внешний CSS-файл -->
+    <style>
+        button {
+            background-color: #28a745; /* Ярко-зеленый цвет */
+            color: white; /* Белый цвет текста */
+            border: none; /* Без границы */
+            padding: 10px 20px; /* Отступы */
+            font-size: 16px; /* Размер шрифта */
+            cursor: pointer; /* Указатель курсора */
+            border-radius: 5px; /* Закругленные углы */
+        }
+
+        button:hover {
+            background-color: #218838; /* Темнее зеленый при наведении */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Счетчик нажатий</h1> <!-- Добавлен заголовок -->
+    <button id="click-button">Нажми меня</button>
+    <p>Количество нажатий: <span id="counter">0</span></p>
+
+    <!-- Подключение внешнего JavaScript-файла -->
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+
